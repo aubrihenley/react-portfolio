@@ -1,11 +1,14 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import "bulma/css/bulma.min.css";
 
-const App = () => (
-  <div>
-    <PortfolioContainer />
-  </div>
-);
+const App = () => {
+  return (
+    <div className="App">
+      <div className="content">
+        <PortfolioContainer />
+      </div>
+    </div>
+  );
+};
 
 export default App;

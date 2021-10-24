@@ -1,31 +1,31 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
 import "../../main.css";
-import { saveAs } from "file-saver";
 
 export default function Resume() {
-  const saveFile = () => {
-    saveAs(
-      "https://docs.google.com/document/d/1gYcN1vdXPgFxCJhN4EI-Pa5HeLB3sL6xIDY8hXqmQOI/edit?usp=sharing",
-      "AubriHenleyResume.pdf"
-    );
-  };
-
   return (
     <div>
-      <h1 className="title has-text-centered section-title">
-        Download My Resume
+      <br />
+      <h1 className="subtitle has-text-centered section-title">
+        View My Resume
       </h1>
       <div className="has-text-centered">
-        <button class="button" onClick={saveFile}>
-          Download
-        </button>
+        <a
+          className="button is-primary is-light is-large is-outlined"
+          href="https://docs.google.com/document/d/1gYcN1vdXPgFxCJhN4EI-Pa5HeLB3sL6xIDY8hXqmQOI/edit?usp=sharing"
+        >
+          Click Here!
+        </a>
       </div>
+      <br />
+      <br />
       <div className="section-dark skills" id="skills">
         <div className="container">
           <div className="columns is-multiline">
             <div className="column is-12 about-me">
-              <h1 className="title has-text-centered section-title">Skills</h1>
+              <h1 className="subtitle has-text-centered section-title">
+                Skills
+              </h1>
             </div>
             <div className="column">
               <img

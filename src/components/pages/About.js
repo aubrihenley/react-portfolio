@@ -7,6 +7,7 @@ export default function About() {
   return (
     <div className="section-dark about-me" id="about-me">
       <div className="container">
+        <br />
         <div className="column is-12 about-me">
           <h1 className="title has-text-centered section-title">About Me</h1>
         </div>

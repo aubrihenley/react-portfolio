@@ -5,6 +5,7 @@ import "../../main.css";
 export default function Contact() {
   return (
     <div className="container">
+      <br />
       <h1 className="subtitle has-text-centered section-title">Contact Me</h1>
       <div className="field">
         <label className="label">Name</label>

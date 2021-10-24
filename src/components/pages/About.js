@@ -16,7 +16,6 @@ export default function About() {
             <br />
             <br />
             <br />
-            <br />
             <p className="is-larger">
               I am a full stack web developer. I have always had a love of
               learning which lead me to get my Bachelors of Education in 2007.
@@ -48,6 +47,7 @@ export default function About() {
                 alt="Portrait of Aubri Henley"
               />
             </figure>
+            <br />
           </div>
         </div>
       </div>

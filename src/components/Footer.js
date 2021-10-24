@@ -4,7 +4,7 @@ import "../main.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div style={{ backgroundColor: "MidnightBlue" }} className="footer">
       <a href="https://github.com/aubrihenley">
         <i class="fab fa-github fa-2x"></i>
       </a>

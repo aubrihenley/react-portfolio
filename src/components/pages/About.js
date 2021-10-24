@@ -8,11 +8,15 @@ export default function About() {
     <div className="section-dark about-me" id="about-me">
       <div className="container">
         <br />
-        <div className="column is-12 about-me">
+        <div className="container column is-12 about-me">
           <h1 className="title has-text-centered section-title">About Me</h1>
         </div>
         <div className="columns is-multiline">
-          <div className="column is-6 has-vertically-aligned-content">
+          <div className="column is-6 has-vertically-aligned-content is-centered">
+            <br />
+            <br />
+            <br />
+            <br />
             <p className="is-larger">
               I am a full stack web developer. I have always had a love of
               learning which lead me to get my Bachelors of Education in 2007.

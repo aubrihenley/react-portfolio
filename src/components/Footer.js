@@ -1,5 +1,6 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
+import "../main.css";
 
 export default function Footer() {
   return (

@@ -16,6 +16,9 @@ const App = () => {
       <div className="App">
         <Header />
         <div className="content"></div>
+        <Route exact path="/react-portfolio/">
+          <About />
+        </Route>
         <Route exact path="/">
           <About />
         </Route>

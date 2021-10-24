@@ -1,6 +1,7 @@
 import React from "react";
 import "../main.css";
 import "bulma/css/bulma.min.css";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -14,26 +15,38 @@ export default function Header() {
           </div>
         </div>
         <div className="hero-foot ">
-          <div className="hero-foot--wrapper">
+          <nav className="hero-foot--wrapper">
             <div className="columns">
               <div className="column is-12 hero-menu-desktop has-text-centered">
                 <ul>
                   <li>
-                    <a href="/">About Me</a>
+                    <NavLink exact to="/" activeClassName="active-link">
+                      About Me
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="/portfolio">Portfolio</a>
+                    <NavLink
+                      exact
+                      to="/portfolio"
+                      activeClassName="active-link"
+                    >
+                      Portfolio
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="/resume">Resume</a>
+                    <NavLink exact to="/resume" activeClassName="active-link">
+                      Resume
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="/contact">Contact</a>
+                    <NavLink exact to="/contact" activeClassName="active-link">
+                      Contact
+                    </NavLink>
                   </li>
                 </ul>
               </div>
             </div>
-          </div>
+          </nav>
         </div>
       </section>
     </div>

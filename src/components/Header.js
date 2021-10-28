@@ -20,7 +20,11 @@ export default function Header() {
               <div className="column is-12 hero-menu-desktop has-text-centered">
                 <ul>
                   <li>
-                    <NavLink exact to="/" activeClassName="active-link">
+                    <NavLink
+                      exact
+                      to="/react-portfolio/"
+                      activeClassName="active-link"
+                    >
                       About Me
                     </NavLink>
                   </li>

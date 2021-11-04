@@ -8,7 +8,7 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import "./main.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
@@ -16,10 +16,8 @@ const App = () => {
       <div className="App">
         <Header />
         <div className="content"></div>
+
         <Route exact path="/react-portfolio/">
-          <About />
-        </Route>
-        <Route exact path="/">
           <About />
         </Route>
         <Route exact path="/portfolio">
